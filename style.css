@@ -1,0 +1,146 @@
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+    .navbar-brand{
+        color: white;
+    }
+.nav-link:hover{
+        background-color: grey;
+
+    }
+
+    .judul{
+        border-radius: 5px;
+    }
+    .gambarjumbo{
+        width: 700px;
+        margin-left: -15px;
+        height: 100%;
+        
+    }
+
+    .tulisanjalan{
+        color: white;
+        margin-top: 50px;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .logoexxa{
+        margin-top: 10%;
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display : block;
+        
+    }
+
+    .kotaklogin{
+        width: 400px;
+        height: 250px;
+        background-color: rgb(255, 255, 255) ;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        box-shadow : 0px 0px 20px 1px rgb(5, 176, 255);
+    }
+
+    .kotaklogin:hover{
+        
+        background-image: linear-gradient(rgb(24, 255, 167), rgb(43, 163, 133));                
+    }
+
+    .lblusername{
+        margin-left: 20px;
+        margin-top: 20px;
+        color : black;
+    }
+
+    .lblusername:hover{
+        
+        font-weight: bold;
+    }
+
+    .inputusername{
+        width: 350px;
+        margin-left: 20px;
+        border-radius: 30px;
+    }
+
+    .lblpassword{
+        color: black;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .lblpassword:hover{
+        font-weight: bold;
+
+    }
+
+    .inputpassword{
+        width: 350px;
+        margin-left: 20px;
+        border-radius: 30px;
+
+    }
+
+    .btnlogin,.baristombol {
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 30px;
+    }
+
+    .btncancel,.baristombol {
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 30px;
+    }
+
+    footer{
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .kotaknotif{
+        width: 400px;
+        height: 400px;
+        background-color:rgba(238, 15, 15, 0.527);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    }
+
+    .txtnotif{
+        color: white;
+        text-align: center;
+        padding-top: 50%;
+        box-shadow: rgba(0,0,0,0.8)
+    }
+
+    .kotaknotif:hover{
+        transform: scale(1.2);
+        transition: 0.8s;
+
+    }
+
+    .tblback{
+        border-radius: 20px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 170px
+    }
